@@ -1,0 +1,61 @@
+.overflow{
+	max-height:218px;
+	position:relative;
+	overflow-y:auto;
+	overflow-x:hidden;
+
+}
+.overflow::-webkit-scrollbar{
+width:8px;
+background-color:#cccccc;
+} 
+.overflow::-webkit-scrollbar-thumb{
+background-color:#27364A;
+
+}
+.overflow::-webkit-scrollbar-thumb:hover{
+background-color:#545F6D;
+border:1px solid #333333;
+}
+.overflow::-webkit-scrollbar-thumb:active{
+background-color:#27364A;
+border:1px solid #333333;
+} 
+.overflow::-webkit-scrollbar-track{
+border:1px gray solid;
+
+-webkit-box-shadow:0 0 6px gray inset;
+} 
+
+.offer{
+	padding-left: 7px;
+	font-size: 16px;
+	margin-bottom: 5px;
+	background: #85fff4;
+	border: 1px solid black;
+}
+
+.offer button{
+	float: right;
+	position: relative;
+	top: -22px;
+	padding: 9px;
+}
+
+.accepted_log{
+	border-radius: 5px;
+	padding: 6px;
+	margin-bottom: 5px;
+	background: #2c6bbb;
+	color: #fff;
+
+}
+.accepted_log.no_border_left {
+	border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.accepted_log.no_border_right {
+	border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
